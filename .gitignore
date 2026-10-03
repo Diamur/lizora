@@ -66,3 +66,6 @@ next-env.d.ts
 
 # Keep environment template in Git
 !.env.example
+
+# Passenger runtime
+tmp/

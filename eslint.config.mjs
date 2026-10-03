@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Plain CJS Node.js files not part of the TypeScript codebase:
+    "server.js",
   ]),
 ]);
 
